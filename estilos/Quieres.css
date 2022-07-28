@@ -1,0 +1,96 @@
+@font-face{ ; font-family: kt; src:  url(minion.ttf)}
+
+
+body {
+        background-color: #ffd55e;
+        font-family: kt;
+        
+}
+#body1 {
+        background-image: url(../fotos/body.jpg);
+}
+#body2 {
+        background-image: url(../fotos/0.gif);
+
+}
+.contain {  font-size: 100px; 
+            height: 100%;
+            
+           
+}
+
+div input { font-size: 80px;
+        position: relative;
+        background-color: #0084ff;
+
+}
+.center { padding-top: 100px;
+
+
+}
+#btnSi {left: 35%;       
+}
+
+
+
+#btnNo {left: 45%;    
+}
+
+.contain1 {
+        font-size: 100px; 
+        height: 100%;
+        padding-top: 100px
+
+}
+div img {
+        width: 400px;
+        padding-left: 200px;
+}
+#imgsi{
+        width: 800px;
+        padding-left: 0;
+        padding-top: 60px;
+
+}
+#explocion {
+        padding-left: 10%;
+}
+.contain1 center img {
+        width: 300px;
+        padding-left: 0;
+
+
+}
+
+
+
+@media (max-width:768px) and (min-width: 350px) {
+        .contain {  font-size: 60px; 
+}
+        div input { font-size: 40px;
+}
+        div img {
+        width: 160px;
+        padding-left: 8px;
+        padding-top: 30px;
+}
+        #btnSi {
+        left: 18%;
+}
+        .contain1 {
+        font-size: 60px; 
+        height: 100%;
+        padding-top: 100px
+}   
+        .contain1 center img {
+        width: 0px;
+        padding-left: 0;
+} 
+        #imgsi{
+        width: 500px;
+        padding-left: 0;
+        padding-top: 0px;
+
+}         
+
+}
